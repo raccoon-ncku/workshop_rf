@@ -10,7 +10,7 @@ services:
       MYSQL_PASSWORD: secret
       MYSQL_DATABASE: vikunja
     volumes:
-      - ./db:/var/lib/mysql
+      - ../docker_volumes/vikunja/db:/var/lib/mysql
     restart: unless-stopped
   api:
     image: vikunja/api
@@ -23,7 +23,7 @@ services:
       VIKUNJA_SERVICE_JWTSECRET: randowmstring_please_change_this
       VIKUNJA_SERVICE_FRONTENDURL: http://localhost:80
     volumes: 
-      - ./files:/app/vikunja/files
+      - ../docker_volumes/vikunja/files:/app/vikunja/files
     depends_on:
       - db
     restart: unless-stopped
