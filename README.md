@@ -66,3 +66,7 @@ python -m compas_rhino.install -v 6.0 -c
 ```sh
 python -m compas_rhino.install -v 7.0 -c
 ```
+
+## Slides
+- [Module 1](https://app.rccn.dev/slidev/KUKA)
+- [Module 2](https://link.rccn.dev/wsrf)
