@@ -18,6 +18,7 @@ for Visual Studio Code, please install the following extensions:
 ### Large Files
 Please download the following files before the workshop:
 - [Workshop Files](https://drive.google.com/drive/folders/1159IfPik13sScniSJwjBX9LQlO-e-gGp?usp=sharing)
+- [KUKA PRC License](https://cloud.rccn.dev/s/4Yj2ZGzQXQxyqED)
 
 
 ## Installing Python and COMPAS
